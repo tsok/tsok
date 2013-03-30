@@ -1,0 +1,4 @@
+php_flag display_errors On
+php_value error_reporting 2047
+php_value max_execution_time 60000
+

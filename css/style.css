@@ -1,0 +1,109 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: tahoma;
+    font-size: 90%;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h1 img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+h2 img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: navy;
+}
+
+input, select {
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.dborder {
+    border-bottom: 1px solid gray;
+}
+
+.action_area {
+    padding-left: 50px;
+}
+
+.descr {
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.inpbtn {
+    border: none;
+    background-color: #006400;
+    color: white;
+    padding: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+ol li i {
+    font-weight: bold;
+}
+
+.cur_folder {
+    color: navy;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, .8) url('/images/loading.gif') 50% 50% no-repeat;
+}
+
+body.loading {
+    overflow: hidden;
+}
+
+span.warn {
+    color: red;
+}
+
+span.ok {
+    color: green;
+}
+
+input.dt {
+    width: 65px;
+}
+
+input.pu, input.ls {
+    width: 80px;
+}
+
+input.address {
+    width: 220px;
+}
+
+input.search {
+    width: 70px;
+}
